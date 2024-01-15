@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar"
-import {Hero} from './components'
+import {About, Experience, Hero} from './components'
 
 const Layout = () => {
 
@@ -11,6 +11,8 @@ const Layout = () => {
        <Navbar/>
        <Hero/>
     </div>
+    <About/>
+    <Experience/>
    </div> 
    </>
   )
