@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
-import {About, Experience, Hero} from './components'
+import { Hero} from './components'
+import { Outlet } from "react-router-dom"
 
 const Layout = () => {
 
@@ -11,8 +12,7 @@ const Layout = () => {
        <Navbar/>
        <Hero/>
     </div>
-    <About/>
-    <Experience/>
+    <Outlet/>
    </div> 
    </>
   )
